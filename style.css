@@ -18,7 +18,7 @@ nav > ul {
 }
 
 .small-image {
-    width: 600px;
+    max-width: 500px;
 }
 
 .list {
