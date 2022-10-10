@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    font-family: "Gill Sans MT"
+}
+
+nav > ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.pinkBorder {
+    border: 8px outset magenta;
+    background-color: magenta;
+    margin: auto;
+    max-width: 1400px;
+    color: snow;
+}
+
+.small-image {
+    width: 600px;
+}
+
+.list {
+    list-style-position: outside;
+    list-style-type: circle;
+}
