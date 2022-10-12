@@ -6,27 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cameron Findlay Portfolio</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 
 <body>
     
     <header> 
         <h1 class="pinkBorder">Cameron Findlay's Portfolio</h1>
-        <nav>
-            <ul>
-                <li class="nav-list"><a href="index.html">Home</a></li>
-                <li class="nav-list"><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main class="pinkBorder">
-        <h3>Hi I'm Cameron! Welcome to my portfolio!</h3>
-        <img class="small-imagew" src="https://i.imgur.com/adrOH36.jpeg" alt="Photo of Cameron"/>
-        <p>Here you can learn all about me, from technical skills to some personal interests!</p>
+    <nav>
+        <ul>
+            <li class="nav-list"><a href="index.html">Home</a></li>
+            <li class="nav-list"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section class="list">
+    <main>
+        <section id="intro">
+            <h3>Hi I'm Cameron! Welcome to my portfolio!</h3>
+            <img class="small-image" src="https://i.imgur.com/adrOH36.jpeg" alt="Photo of Cameron"/>
+            <p>Here you can learn all about me, from technical skills to some personal interests!</p>
+        </section>
+
+        <section id="techskills">
             <p>Some of my technical skills include:</p>
             <ul>
                 <li>HTML</li>
@@ -35,14 +39,14 @@
             </ul>
         </section>
 
-        <section>
+        <section id="websites">
             <p>See these skills in action by checking out some websites I made:</p>
             <ul>
-                <li><a href="https:/ayrunitedfc.netlify.app">Ayr United FC</a></li>
+                <li><a href="https://ayrunitedfc.netlify.app">Ayr United FC</a></li>
             </ul>
         </section>
 
-        <section class="list">
+        <section id="personalinterests">
             <p>And here's some of my personal interests:</p>
             <ul>
                 <li>Playing instruments - If it's got strings I can play it (although maybe not too well!)</li>
@@ -50,7 +54,9 @@
                 <li>Sports - I played handball at uni and have recently taken up climbing</li>
             </ul>
         </section>
-
+        
     </main>
+
+    <footer>By Cameron Findlay</footer>
 </body>
 </html>

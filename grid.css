@@ -1,0 +1,32 @@
+header { grid-area: head; }
+nav { grid-area: nav; }
+main {grid-area: main;}
+
+#intro {grid-area: intro;}
+#techskills {grid-area: techskills;}
+#personalinterests { grid-area: personalinterests;}
+#websites { grid-area: websites;}
+
+footer {grid-area: foot;}
+
+body {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas: ". head ."
+                         ". nav ."
+                         ". main ."
+                         ". foot .";                         ;
+    grid-template-rows: 1fr 1fr 10fr 0.5fr;
+    grid-template-columns: 1fr 20fr 0.1fr;
+    margin-bottom: 0;
+}
+
+
+/* main {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));;
+} */
